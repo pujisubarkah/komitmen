@@ -12,6 +12,6 @@
   import QrcodeVue from 'qrcode.vue'
   
   const userId = '12345' // Ganti dengan user ID dinamis
-  const link = `https://namadomain.com/komitmen?user=${userId}` // Ganti dengan URL yang sesuai
+  const link = `https://komitmen.vercel.app/komitmen?user=${userId}`
   </script>
   
