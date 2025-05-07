@@ -1,29 +1,17 @@
 <template>
-    <div class="welcome-page">
-        <h1>Selamat Datang di Komitmen App</h1>
-        <p>Terima kasih telah mengunjungi aplikasi kami. Mari mulai perjalanan Anda!</p>
+    <div class="flex items-center justify-center h-screen">
+      <div class="text-center p-6">
+        <h1 class="text-3xl font-bold mb-4">Scan untuk Komitmen</h1>
+        <qrcode-vue :value="link" :size="500" /> <!-- Ukuran QR Code besar -->
+        <p class="mt-2 text-sm text-gray-600">{{ link }}</p>
+      </div>
     </div>
-</template>
-
-<script>
-export default {
-    name: "WelcomePage",
-};
-</script>
-
-<style scoped>
-.welcome-page {
-    text-align: center;
-    margin-top: 50px;
-}
-
-h1 {
-    font-size: 2.5rem;
-    color: #333;
-}
-
-p {
-    font-size: 1.2rem;
-    color: #666;
-}
-</style>
+  </template>
+  
+  <script setup>
+  import QrcodeVue from 'qrcode.vue'
+  
+  const userId = '12345' // Ganti dengan user ID dinamis
+  const link = `https://namadomain.com/komitmen?user=${userId}` // Ganti dengan URL yang sesuai
+  </script>
+  
