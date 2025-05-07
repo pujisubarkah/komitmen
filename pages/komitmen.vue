@@ -1,32 +1,53 @@
 <template>
-  <div class="min-h-screen bg-gray-100 p-6">
-    <div class="max-w-2xl mx-auto bg-white shadow-xl rounded-2xl p-8 space-y-6">
-      <h1 class="text-2xl font-bold text-center">Formulir Komitmen</h1>
+  <div class="p-4 text-center">
+    <h2 class="text-2xl font-bold mb-4">Ambil Foto Komitmen</h2>
+    <video ref="video" autoplay playsinline class="w-full max-w-md mx-auto border rounded" />
 
-      <!-- Komponen Kamera -->
-      <CameraInput />
+    <canvas ref="canvas" class="hidden" />
 
-      <!-- Nama -->
-      <div>
-        <label class="block font-medium">Nama</label>
-        <input v-model="form.nama" type="text" class="w-full mt-1 p-2 border rounded" />
-      </div>
+    <button @click="capturePhoto" class="mt-4 px-6 py-2 bg-blue-500 text-white rounded">
+      Ambil Foto
+    </button>
 
-      <!-- Submit -->
-      <button @click="submitForm" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded">
-        Saya Berkomitmen
-      </button>
+    <div v-if="photo" class="mt-4">
+      <h3 class="font-semibold">Preview Foto:</h3>
+      <img :src="photo" class="mt-2 rounded shadow-md max-w-xs mx-auto" />
     </div>
   </div>
 </template>
 
 <script setup>
-import CameraInput from '~/components/CameraInput.vue'  // Import komponen kamera
+import { ref, onMounted } from 'vue'
+import { useRoute } from 'vue-router'
 
-const form = ref({ nama: '' })
+const video = ref(null)
+const canvas = ref(null)
+const photo = ref(null)
+const route = useRoute()
+const userId = route.query.user
 
-const submitForm = () => {
-  console.log('Nama:', form.value.nama)
-  alert('Foto komitmen telah dikirim!')
+onMounted(async () => {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({ video: true })
+    video.value.srcObject = stream
+  } catch (err) {
+    alert('Tidak bisa mengakses kamera: ' + err.message)
+  }
+})
+
+const capturePhoto = () => {
+  const context = canvas.value.getContext('2d')
+  canvas.value.width = video.value.videoWidth
+  canvas.value.height = video.value.videoHeight
+  context.drawImage(video.value, 0, 0)
+
+  photo.value = canvas.value.toDataURL('image/png')
+
+  // TODO: Kirim ke server
+  // fetch('/api/submit', {
+  //   method: 'POST',
+  //   body: JSON.stringify({ userId, photo: photo.value }),
+  //   headers: { 'Content-Type': 'application/json' }
+  // })
 }
 </script>

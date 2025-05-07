@@ -1,9 +1,3 @@
 <template>
-  <NuxtLayout>
-    <slot />
-  </NuxtLayout>
+  <NuxtPage />
 </template>
-
-<script setup>
-defineProps()
-</script>
