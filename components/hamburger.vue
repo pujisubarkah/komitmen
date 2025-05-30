@@ -9,21 +9,21 @@
 
     <!-- Sidebar Menu -->
     <transition name="slide">
-      <div v-show="isOpen" class="fixed top-0 right-0 w-64 h-full bg-white shadow-lg z-50 p-4">
+      <div v-show="isOpen" class="fixed top-0 right-0 w-72 h-full bg-gradient-to-b from-gray-800 to-gray-900 shadow-2xl z-50 p-6 text-white">
         <!-- Header dengan Tombol Close -->
-        <div class="mb-6 flex justify-between items-center">
-          <div class="text-lg font-semibold">📁 Menu</div>
-          <button @click="toggleMenu" class="text-gray-500 hover:text-gray-800">
+        <div class="mb-8 flex justify-between items-center">
+          <div class="text-xl font-bold tracking-wide">📁 Menu</div>
+          <button @click="toggleMenu" class="text-gray-400 hover:text-white text-2xl">
             &times;
           </button>
         </div>
 
         <!-- Menu Items -->
-        <ul class="space-y-4">
-          <li><a href="#" class="hover:underline">Beranda</a></li>
-          <li><a href="#" class="hover:underline">LAN Datahon</a></li>
-          <li><a href="#" class="hover:underline">Gallery</a></li>
-          <li><a href="#" class="hover:underline">Contact</a></li>
+        <ul class="space-y-6">
+          <li><a href="#" class="block text-lg font-medium hover:text-gray-300 transition">Beranda</a></li>
+          <li><a href="#" class="block text-lg font-medium hover:text-gray-300 transition">LAN Datahon</a></li>
+          <li><a href="#" class="block text-lg font-medium hover:text-gray-300 transition">Gallery</a></li>
+          <li><a href="#" class="block text-lg font-medium hover:text-gray-300 transition">Contact</a></li>
         </ul>
       </div>
     </transition>
@@ -56,5 +56,9 @@ const toggleMenu = () => {
 .slide-enter-from,
 .slide-leave-to {
   transform: translateX(100%);
+}
+
+button:focus {
+  outline: none;
 }
 </style>
