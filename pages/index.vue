@@ -8,6 +8,6 @@
 <script setup>
 
 import Hamburger from '@/components/hamburger.vue'
-import Countdown from '@/components/Countdown.vue'
-import Timeline from '@/components/Timeline.vue'
+import Countdown from '@/components/countdown.vue'
+import Timeline from '@/components/timeline.vue'
 </script>
