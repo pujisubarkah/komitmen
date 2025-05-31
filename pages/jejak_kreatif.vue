@@ -10,7 +10,9 @@
       Mari jelajahi jejak kreativitas yang terus berkembang dan memacu semangat berinovasi!
     </p>
 
-    <h3 class="text-2xl font-bold mb-4 text-blue-700">LAN DATATHON 2024</h3>
+    <hr class="my-12 border-t-2 border-gray-300">
+
+    <h2 class="text-2xl font-bold mb-4 text-blue-700">LAN DATATHON 2024</h2>
     <p class="mb-8 text-gray-600 text-base leading-relaxed">
       Nikmati pengalaman eksplorasi data yang kaya dan interaktif melalui dashboard Tableau ini, yang menampilkan berbagai insight menarik dari proyek peserta.
       Cocok untuk kamu yang suka mendalami data secara visual dan detail.
@@ -115,7 +117,9 @@
       </div>
     </div>
 
-    <h3 class="text-2xl font-bold mb-8 mt-12 text-blue-700">LAN DATATHON 2023</h3>
+    <hr class="my-12 border-t-2 border-gray-300">
+
+    <h2 class="text-2xl font-bold mb-8 mt-12 text-blue-700">LAN DATATHON 2023</h2>
     <p class="mb-8 text-gray-600 text-base leading-relaxed">
       Nikmati pengalaman eksplorasi data yang kaya dan interaktif melalui dashboard RShiny ini, yang menampilkan berbagai insight menarik dari proyek peserta.
       Cocok untuk kamu yang suka mendalami data secara visual dan detail.
