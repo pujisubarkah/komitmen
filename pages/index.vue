@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <div id="content" style="margin-top: 80px;">
+    <div id="content">
       <section>
         <Countdown />
       </section>

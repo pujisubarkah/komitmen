@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-gradient-to-b from-blue-200 via-purple-100 to-purple-200 flex flex-col justify-center items-center text-center px-6 py-8">
-
+  
     <div class="max-w-4xl bg-gradient-to-r from-white via-blue-50 to-purple-50 rounded-lg shadow-lg p-8 flex flex-col justify-center items-center h-full">
       <h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 mb-6 leading-tight">
         LAN Datathon — Master Machine Learning & Data Science in One Epic Challenge!

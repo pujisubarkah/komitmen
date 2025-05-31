@@ -3,11 +3,11 @@
         <div class="content">
             <img src="/booklet_datathon.png" alt="Preview Panduan" class="preview-image" />
             <div class="description">
-                <h1 class="title" style="margin-bottom: 10px;">Booklet LAN Datathon 2025</h1>
+                <h1 class="title" style="margin-bottom: 10px;">Booklet LAN Datathon</h1>
                 <p style="margin-bottom: 15px; text-align: justify;">
-                    Booklet ini dirancang untuk membantu peserta memahami peraturan kompetisi LAN Datathon 2025.
-                    Peserta diwajibkan mengumpulkan proposal ide proyek sesuai dengan tema yang telah ditentukan, mengikuti bootcamp online pelatihan AI dasar, dan melakukan submission project yang telah dibuat.
-                    Silakan unduh panduan atau lihat versi online untuk informasi lebih lanjut.
+                    Booklet ini dirancang untuk membantu peserta memahami peraturan kompetisi LAN Datathon 2025 secara menyeluruh. Dalam booklet ini, peserta akan menemukan informasi penting terkait tahapan kompetisi, mulai dari pengumpulan proposal ide proyek sesuai tema, hingga pelaksanaan bootcamp online yang dirancang untuk memberikan pelatihan dasar mengenai pembuatan proyek/aplikasi berbasis AI. 
+                    Panduan ini juga mencakup langkah-langkah teknis dalam melakukan submission proyek. 
+                    Silakan unduh panduan ini atau lihat versi online untuk mendapatkan informasi lebih rinci dan memastikan Anda tidak melewatkan detail penting terkait kompetisi.
                 </p>
                 <div class="buttons">
                     <a href="/Booklet_LAN_Datathon_2025.pdf" download class="btn download-btn">Unduh Panduan</a>
@@ -30,7 +30,7 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 60px;
     background: linear-gradient(135deg, #4a90e2, #8e44ad);
     color: #fff;
     border-radius: 10px;
@@ -53,7 +53,7 @@ export default {
 }
 
 .preview-image {
-    width: 250px;
+    width: 350px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
