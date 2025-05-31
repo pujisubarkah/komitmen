@@ -1,6 +1,9 @@
 <template>
   <div class="max-w-5xl mx-auto px-8 py-12 bg-gradient-to-b from-blue-50 to-purple-50 rounded-lg shadow-lg">
-    <h1 class="text-4xl font-extrabold mb-6 text-blue-800">Karya Peserta LAN Datathon Event Sebelumnya</h1>
+    <h1 class="text-5xl font-extrabold mb-6">
+      <span class="text-purple-700">Jejak Kreatif  -  </span> 
+      <span class="text-blue-800">Direktori Kumpulan Karya Peserta LAN Datathon</span>
+    </h1>
     <p class="mb-10 text-gray-700 text-lg leading-relaxed">
       Temukan inovasi dan kreativitas luar biasa dari para peserta LAN Datathon di event-event sebelumnya.
       Beragam karya data visualisasi, aplikasi, dan solusi yang telah memberikan inspirasi dan dampak nyata.
