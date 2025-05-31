@@ -111,6 +111,110 @@
         </div>
       </div>
     </div>
+
+    <h3 class="text-2xl font-bold mb-8 mt-12 text-blue-700">LAN DATATHON 2023</h3>
+    <p class="mb-8 text-gray-600 text-base leading-relaxed">
+      Nikmati pengalaman eksplorasi data yang kaya dan interaktif melalui dashboard RShiny ini, yang menampilkan berbagai insight menarik dari proyek peserta.
+      Cocok untuk kamu yang suka mendalami data secara visual dan detail.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <!-- Karya 1 -->
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer" @click="openTableauDashboard('https://reza-saputra.shinyapps.io/cekstuntingindo/')">
+        <h2 class="text-xl font-semibold mb-3 text-blue-700">
+          Cek Stunting Indonesia
+        </h2>
+        <p class="text-sm font-medium text-gray-500 mb-3">
+          Oleh: Nurreza AS (Lembaga Administrasi Negara/LAN)
+        </p>
+        <p class="mb-5 text-gray-600 leading-relaxed">
+          Visualisasi interaktif tentang keadaan stunting atau kurang gizi di Indonesia yang dibuat oleh Nurreza dari LANRI.
+        </p>
+        <div class="relative" style="padding-top: 56.25%;">
+          <img
+            src="https://page2images.b-cdn.net/ccimages/79/35/4aLwVaqw7JC9c8QA.png"
+            alt="Preview Shiny App"
+            class="absolute top-0 left-0 w-full h-full rounded-lg object-cover"
+          />
+        </div>
+      </div>
+      <!-- Karya 2 -->
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer" @click="openTableauDashboard('https://rezkyyayang.shinyapps.io/PekerjaSejahtera/')">
+        <h2 class="text-xl font-semibold mb-3 text-blue-700">
+          Dashboard Pekerja Sejahtera
+        </h2>
+        <p class="text-sm font-medium text-gray-500 mb-3">
+          Oleh: Rezky YY (Lembaga Administrasi Negara/LAN)
+        </p>
+        <p class="mb-5 text-gray-600 leading-relaxed">
+          Visualisasi interaktif tentang keadaan kesejahteraan pekerja di Indonesia yang dibuat oleh Rezky dari LANRI.
+        </p>
+        <div class="relative" style="padding-top: 56.25%;">
+          <img
+            src="https://page2images.b-cdn.net/ccimages/8c/41/eJLOEzTCGUClHbCM.png"
+            alt="Preview Shiny App"
+            class="absolute top-0 left-0 w-full h-full rounded-lg object-cover"
+          />
+        </div>
+      </div>
+      <!-- Karya 3 -->
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer" @click="openTableauDashboard('https://nrwpradana.shinyapps.io/landv/')">
+        <h2 class="text-xl font-semibold mb-3 text-blue-700">
+          Indeks Perilaku Anti Korupsi
+        </h2>
+        <p class="text-sm font-medium text-gray-500 mb-3">
+          Oleh: Nadhiar RWP (Badan Siber Sandi Negara/BSSN)
+        </p>
+        <p class="mb-5 text-gray-600 leading-relaxed">
+          Visualisasi interaktif tentang indeks perilaku anti korupsi di Indonesia yang dibuat oleh Nadhiar dari BSSN.
+        </p>
+        <div class="relative" style="padding-top: 56.25%;">
+          <img
+            src="https://page2images.b-cdn.net/ccimages/18/37/y8N0dtIEbstfz5lf.png"
+            alt="Preview Shiny App"
+            class="absolute top-0 left-0 w-full h-full rounded-lg object-cover"
+          />
+        </div>
+      </div>
+      <!-- Karya 4 -->
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer" @click="openTableauDashboard('https://frqaini.shinyapps.io/Stunting/')">
+        <h2 class="text-xl font-semibold mb-3 text-blue-700">
+          Prevalensi Stunting dan Kemiskinan
+        </h2>
+        <p class="text-sm font-medium text-gray-500 mb-3">
+          Oleh: Fitria QA (Lembaga Administrasi Negara/LAN)
+        </p>
+        <p class="mb-5 text-gray-600 leading-relaxed">
+          Visualisasi interaktif tentang prevalensi kemiskinan dan stunting di Indonesia yang dibuat oleh Fitria dari LANRI.
+        </p>
+        <div class="relative" style="padding-top: 56.25%;">
+          <img
+            src="https://page2images.b-cdn.net/ccimages/42/36/OjOg26krpuzi3KuV.png"
+            alt="Preview Shiny App"
+            class="absolute top-0 left-0 w-full h-full rounded-lg object-cover"
+          />
+        </div>
+      </div>
+      <!-- Karya 5 -->
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow cursor-pointer" @click="openTableauDashboard('https://jatnikonm.shinyapps.io/eco-status/')">
+        <h2 class="text-xl font-semibold mb-3 text-blue-700">
+          Menghadapi Stunting Dengan Data
+        </h2>
+        <p class="text-sm font-medium text-gray-500 mb-3">
+          Oleh: Jatniko NM (Arsip Nasional RI/ANRI)
+        </p>
+        <p class="mb-5 text-gray-600 leading-relaxed">
+          Visualisasi interaktif tentang keadaan penanganan stunting di Indonesia yang dibuat oleh Jatniko dari ANRI.
+        </p>
+        <div class="relative" style="padding-top: 56.25%;">
+          <img
+            src="https://page2images.b-cdn.net/ccimages/85/3a/HavU35aiKvqQPBo6.png"
+            alt="Preview Shiny App"
+            class="absolute top-0 left-0 w-full h-full rounded-lg object-cover"
+          />
+        </div>
+      </div>
+      </div>
   </div>
 </template>
 
