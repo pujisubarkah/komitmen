@@ -29,7 +29,14 @@
     <!-- Galeri Foto -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       <div v-for="(img, idx) in images" :key="idx" class="galeri-item">
-        <img :src="img.src" :alt="img.alt" class="w-full h-auto rounded-lg shadow-md" />
+        <iframe
+          :src="img.src"
+          :title="img.alt"
+          class="w-full h-64 rounded-lg shadow-md"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+        ></iframe>
         <p class="mt-2 text-center text-gray-600 text-sm">{{ img.caption }}</p>
       </div>
     </div>
@@ -39,22 +46,22 @@
 <script setup>
 const images = [
   {
-    src: 'https://drive.usercontent.google.com/download?id=1FF6jTztAmQjhBjxG0fpu7nNe1jTmoTxS&export=view&authuser=0',
-    alt: 'Peserta Presentasi',
-    caption: 'Presentasi Tim Datathon',
+    src: 'https://drive.google.com/file/d/1BGpUPjAVXxeRnocOjt3mjh7BZieapyL1/preview',
+    alt: 'Panggung Inspiratif Juara Dunia',
+    caption: 'Panggung Inspiratif Juara Dunia',
   },
   {
-    src: 'https://drive.google.com/uc?export=view&id=1bv0FrP76mcbXDb48DK-Ju97ueGF6w50S',
-    alt: 'Suasana Kegiatan',
-    caption: 'Kolaborasi dalam Tim',
+    src: 'https://drive.google.com/file/d/1yHLKQtFrUsyCZNxblywRkh2CXPZghAat/preview',
+    alt: 'Presentasi Proyek Inovatif',
+    caption: 'Presentasi Proyek Inovatif',
   },
   {
-    src: 'https://drive.google.com/uc?export=view&id=1squhpwxGXoKe7F3HMWuGUpQlCqIVCAwg',
-    alt: 'Mentoring Session',
-    caption: 'Sesi Mentoring Seru',
+    src: 'https://drive.google.com/file/d/1SAaDZXpuvNAWnkR4EKmCePaneefrES5V/preview',
+    alt: 'Launching Session',
+    caption: 'Sesi Launching LAN Datathon',
   },
   {
-    src: 'https://drive.google.com/uc?export=view&id=14s8xbVxpfQrLTz-C-EoIAyfTcF9Sbktq',
+    src: 'https://drive.google.com/file/d/1yGDSENYjY1Tu_R_Tj-VbI1c0j9fTZXTc/preview',
     alt: 'Penjurian',
     caption: 'Momen Penjurian Kreatif',
   },
