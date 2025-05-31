@@ -1,12 +1,16 @@
 <template>
   <div class="galeri-page max-w-6xl mx-auto px-4 py-10">
-    <h1 class="text-3xl font-bold text-blue-700 mb-6">
-      Jejak Inspirasi: Dokumentasi LAN Datathon
+    <h1 class="text-5xl font-extrabold mb-6">
+      <span class="text-purple-900">Jejak Inspirasi  -  </span> 
+      <span class="text-blue-800">Dokumentasi LAN Datathon</span>
     </h1>
     
     <p class="text-gray-700 text-lg mb-8">
       Lihat kembali momen-momen penuh semangat, kreativitas, dan kolaborasi dari event LAN Datathon sebelumnya.  
-      Mulai dari sesi presentasi hingga mentoring, semua terangkum dalam galeri penuh warna ini!
+      Dalam galeri ini, Anda akan menemukan berbagai dokumentasi menarik, mulai dari sesi presentasi yang penuh ide-ide brilian, 
+      mentoring yang memberikan wawasan baru, hingga momen-momen penjurian yang menegangkan. 
+      Setiap foto dan video yang ditampilkan di sini adalah bukti nyata dari dedikasi, kerja keras, dan inovasi para peserta. 
+      Mari kita rayakan perjalanan inspiratif ini bersama!
     </p>
 
     <!-- Video Pengantar -->
@@ -35,7 +39,7 @@
 <script setup>
 const images = [
   {
-    src: 'https://drive.google.com/uc?export=view&id=1FF6jTztAmQjhBjxG0fpu7nNe1jTmoTxS',
+    src: 'https://drive.usercontent.google.com/download?id=1FF6jTztAmQjhBjxG0fpu7nNe1jTmoTxS&export=view&authuser=0',
     alt: 'Peserta Presentasi',
     caption: 'Presentasi Tim Datathon',
   },
