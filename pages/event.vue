@@ -2,10 +2,10 @@
   <div>
     <Navbar />
     <div class="timeline-container">
-      <h1>Daftar Event LAN Datathon 2025</h1>
+      <h1>Timeline Event LAN Datathon 2025</h1>
       <div class="timeline">
         <div class="timeline-item left">
-          <div class="timeline-date blue">Minggu ke-1<br>Juni 2025</div>
+          <div class="timeline-date blue"><small>Minggu 1</small><br>JUNI 2025</div>
           <div class="timeline-content yellow">
             <b>LAUNCHING LAN DATATHON 2025</b>
             <ul>
@@ -15,43 +15,45 @@
           </div>
         </div>
         <div class="timeline-item right">
-          <div class="timeline-date blue">Juni 2025</div>
+          <div class="timeline-date blue">JUNI 2025</div>
           <div class="timeline-content yellow">
             <b>PENDAFTARAN PESERTA DAN SELEKSI PROPOSAL</b>
           </div>
         </div>
         <div class="timeline-item left">
-          <div class="timeline-date blue">Minggu ke-4<br>Juni 2025</div>
+          <div class="timeline-date blue"><small>Minggu 4</small><br>JUNI 2025</div>
           <div class="timeline-content yellow">
             <b>SELEKSI PROPOSAL PESERTA</b>
           </div>
         </div>
         <div class="timeline-item right">
-          <div class="timeline-date blue">Minggu ke-1<br>Juli 2025</div>
+          <div class="timeline-date blue"><small>Minggu 1</small><br>JULI 2025</div>
           <div class="timeline-content yellow">
             <b>PENGUMUMAN PESERTA BOOTCAMP</b>
           </div>
         </div>
         <div class="timeline-item left">
-          <div class="timeline-date blue">Minggu ke-2<br>Juli 2025</div>
+          <div class="timeline-date blue"><small>Minggu 2</small><br>JULI 2025</div>
           <div class="timeline-content yellow">
             <b>BOOTCAMP LAN DATATHON 2025</b>
           </div>
         </div>
         <div class="timeline-item right">
-          <div class="timeline-date blue">Minggu ke-4<br>Juli 2025</div>
+            <div class="timeline-date blue">
+            <small>Minggu 4</small><br>JULI 2025
+            </div>
           <div class="timeline-content yellow">
             <b>SUBMISSION FINAL PROJECT</b>
           </div>
         </div>
         <div class="timeline-item left">
-          <div class="timeline-date blue">31 Juli 2025</div>
+          <div class="timeline-date blue">31 JULI 2025*</div>
           <div class="timeline-content yellow">
             <b>PENGUMUMAN FINALIS (TOP 5)</b>
           </div>
         </div>
         <div class="timeline-item right">
-          <div class="timeline-date blue">6 Agustus 2025</div>
+          <div class="timeline-date blue">6 AGUSTUS 2025*</div>
           <div class="timeline-content yellow">
             <b>DEMODAY LAN DATATHON 2025</b>
           </div>
@@ -67,20 +69,20 @@ import Navbar from '@/components/Navbar.vue'
 
 <style scoped>
 .timeline-container {
-  padding: 40px 0;
+  padding: 60px 20px; /* Tambahkan padding lebih besar */
   background: #fff;
 }
 .timeline-container h1 {
   text-align: center;
-  margin-bottom: 40px;
-  font-size: 2rem;
+  margin-bottom: 50px; /* Tambahkan margin bawah */
+  font-size: 2.2rem; /* Sedikit lebih besar */
   font-weight: bold;
 }
 .timeline {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 30px 0; /* Tambahkan padding atas dan bawah */
 }
 .timeline::before {
   content: '';
@@ -99,7 +101,7 @@ import Navbar from '@/components/Navbar.vue'
   align-items: center;
   width: 100%;
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 50px; /* Tambahkan margin bawah */
 }
 .timeline-item.left {
   flex-direction: row;
@@ -108,15 +110,15 @@ import Navbar from '@/components/Navbar.vue'
   flex-direction: row-reverse;
 }
 .timeline-date {
-  min-width: 140px;
-  max-width: 160px;
+  min-width: 160px; /* Sedikit lebih lebar */
+  max-width: 180px;
   text-align: center;
   color: #fff;
   font-weight: bold;
-  font-size: 1.1rem;
-  padding: 18px 10px;
+  font-size: 1.2rem; /* Sedikit lebih besar */
+  padding: 20px 12px; /* Tambahkan padding */
   border-radius: 12px;
-  margin: 0 20px;
+  margin: 0 60px; /* Tambahkan margin horizontal */
   box-shadow: 0 2px 8px #0001;
   z-index: 2;
 }
@@ -126,21 +128,21 @@ import Navbar from '@/components/Navbar.vue'
 .timeline-content {
   background: #ffe36e;
   color: #19398a;
-  padding: 18px 24px;
-  border-radius: 40px 40px 40px 40px / 50% 50% 50% 50%;
-  min-width: 260px;
-  max-width: 340px;
-  font-size: 1.05rem;
+  padding: 24px 28px; /* Tambahkan padding */
+  border-radius: 40px;
+  min-width: 280px; /* Sedikit lebih lebar */
+  max-width: 360px;
+  font-size: 1.1rem; /* Sedikit lebih besar */
   font-weight: bold;
   box-shadow: 0 2px 8px #0001;
   z-index: 2;
-  margin: 0 20px;
+  margin: 0 30px; /* Tambahkan margin horizontal */
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 10px; /* Tambahkan jarak antar elemen */
 }
 .timeline-content ul {
-  margin: 8px 0 0 18px;
+  margin: 10px 0 0 20px; /* Tambahkan margin */
   padding: 0;
   font-weight: normal;
   color: #222;
@@ -151,8 +153,8 @@ import Navbar from '@/components/Navbar.vue'
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 28px;
-  height: 28px;
+  width: 32px; /* Sedikit lebih besar */
+  height: 32px;
   background: #fff;
   border: 6px solid #19398a;
   border-radius: 50%;
@@ -168,15 +170,15 @@ import Navbar from '@/components/Navbar.vue'
   .timeline-item.right {
     flex-direction: column !important;
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 40px; /* Tambahkan margin bawah */
   }
   .timeline-date,
   .timeline-content {
-    margin: 8px 0;
-    min-width: 180px;
+    margin: 12px 0; /* Tambahkan margin vertikal */
+    min-width: 200px; /* Sedikit lebih lebar */
     max-width: 95vw;
     font-size: 1rem;
-    padding: 14px 10px;
+    padding: 16px 12px; /* Tambahkan padding */
   }
   .timeline-content {
     border-radius: 30px;
