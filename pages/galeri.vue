@@ -18,7 +18,7 @@
       <div class="relative" style="padding-top: 56.25%;">
         <iframe
           class="absolute top-0 left-0 w-full h-full rounded-lg"
-          src="https://drive.google.com/file/d/1fR8ioApNUCJUcrUz6PP5GuIyWC59yJPl/preview"
+          src="https://drive.google.com/file/d/1bGwbPbnLOhqp_iSJ2wGMZoWECG2iFqYP/preview"
           frameborder="0"
           allow="autoplay; encrypted-media"
           allowfullscreen
