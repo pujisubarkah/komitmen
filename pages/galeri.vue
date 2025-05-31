@@ -65,6 +65,17 @@ const images = [
     alt: 'Penjurian',
     caption: 'Momen Penjurian Kreatif',
   },
+  {
+    src: 'https://drive.google.com/file/d/1Dr6q070lEtIocYJPXYsVmR-aIUDDnRPX/preview',
+    alt: 'Presentasi Proyek Inovatif',
+    caption: 'Presentasi Proyek Inovatif',
+  },
+  {
+    src: 'https://drive.google.com/file/d/1mTuE-waQUUwozx42aNhZaxbpRwqAo808/preview',
+    alt: 'Penghargaan Juara',
+    caption: 'Momen Awarding Pemenang',
+  },
+  
 ]
 </script>
 
