@@ -6,6 +6,10 @@
             <img src="/tanoto.png" alt="Tanoto Logo" class="logo" />
             <img src="/mandiri.png" alt="Mandiri Logo" class="logo" />
         </div>
+        <div class="small-logos">
+            <img src="/data_academy.png" alt="Data Academy Logo" class="small-logo" />
+            <img src="/korika.png" alt="Korika Logo" class="small-logo" />
+        </div>
     </div>
 </template>
 
@@ -37,6 +41,20 @@ export default {
     display: flex;
     justify-content: center;
     gap: 30px; /* Menambah jarak antar logo */
+}
+
+.small-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Menambah jarak antar logo kecil */
+    margin-top: 20px; /* Tambahkan margin atas untuk pemisah */
+}
+
+.small-logo {
+    height: 50px;
+    width: auto;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
+    margin: 5px; /* Menambah margin di sekitar logo kecil */
 }
 
 .logo {
