@@ -35,8 +35,16 @@
         </div>
       </div>
 
-      <div class="bg-gradient-to-r from-purple-700 to-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
-        12 Juni 2025, 09.00 WIB
+      <div v-if="countdown.days === '00' && countdown.hours === '00' && countdown.minutes === '00' && countdown.seconds === '00'" class="flex space-x-4">
+        <NuxtLink to="/registrasi" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+          REGISTER NOW
+        </NuxtLink>
+        <NuxtLink to="/panduan" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+          VIEW BOOKLET
+        </NuxtLink>
+      </div>
+      <div v-else class="bg-gradient-to-r from-purple-700 to-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+        12 June 2025, 09.00 WIB
       </div>
     </div>
   </div>

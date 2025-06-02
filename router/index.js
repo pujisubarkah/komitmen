@@ -4,6 +4,7 @@ import JejakKreatif from '@/pages/jejak_kreatif.vue'
 import Event from '@/pages/event.vue'
 import Galeri from '@/pages/galeri.vue'
 import Panduan from '@/pages/panduan.vue'
+import Registrasi from '@/pages/registrasi.vue'
 
 const routes = [
   { path: '/', component: Home },
@@ -11,6 +12,7 @@ const routes = [
   { path: '/event', component: Event },
   { path: '/galeri', component: Galeri },
   { path: '/panduan', component: Panduan },
+  { path: '/registrasi', component: Registrasi },
 ]
 
 const router = createRouter({
