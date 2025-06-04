@@ -10,7 +10,7 @@
                     Silakan unduh panduan ini atau lihat versi online untuk mendapatkan informasi lebih rinci dan memastikan Anda tidak melewatkan detail penting terkait kompetisi.
                 </p>
                 <div class="buttons">
-                    <a href="/Booklet_LAN_Datathon_2025.pdf" download class="btn download-btn">Unduh Panduan</a>
+                    <a href="https://drive.google.com/uc?export=download&id=1v9AxqEpltFBKTbbkzkt8BKhnh_ktjPg1" download class="btn download-btn">Unduh Panduan</a>
                     <a href="https://bookletdatathon.my.canva.site/" target="_blank" class="btn view-btn">Lihat Panduan</a>
                 </div>
             </div>
