@@ -46,14 +46,14 @@ export default {
 
 .logo, .small-logo {
     height: auto;
-    width: 100px; /* Ukuran default untuk logo */
+    width: 200px; /* Ukuran default untuk logo */
     max-width: 100%; /* Membatasi ukuran agar tidak melebihi kontainer */
     filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
     margin: 10px;
 }
 
 .small-logo {
-    width: 70px; /* Ukuran default untuk logo kecil */
+    width: 150px; /* Ukuran default untuk logo kecil */
 }
 
 @media (max-width: 768px) {
