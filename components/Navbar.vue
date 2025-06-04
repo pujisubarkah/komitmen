@@ -20,19 +20,24 @@
 
       <!-- Menu - Desktop -->
       <ul class="hidden md:flex space-x-6 text-sm font-medium">
-        <li><NuxtLink to="/event" class="hover:text-yellow-400">EVENTS</NuxtLink></li>
-        <li><NuxtLink to="/jejak_kreatif" class="hover:text-yellow-400">JEJAK KREATIF</NuxtLink></li>
-        <li><NuxtLink to="/panduan" class="hover:text-yellow-400">PANDUAN</NuxtLink></li>
-        <li><NuxtLink to="/galeri" class="hover:text-yellow-400">GALERI</NuxtLink></li>
+        <li><NuxtLink to="/event" class="hover:text-yellow-400 transition-colors">EVENTS</NuxtLink></li>
+        <li><NuxtLink to="/jejak_kreatif" class="hover:text-yellow-400 transition-colors">JEJAK KREATIF</NuxtLink></li>
+        <li><NuxtLink to="/panduan" class="hover:text-yellow-400 transition-colors">PANDUAN</NuxtLink></li>
+        <li><NuxtLink to="/galeri" class="hover:text-yellow-400 transition-colors">GALERI</NuxtLink></li>
       </ul>
 
       <!-- Menu - Mobile -->
-      <ul v-if="isOpen" class="md:hidden px-4 pb-4 space-y-2 text-sm font-medium bg-[#4a69bd]">
-        <li><NuxtLink @click="closeMenu" to="/event" class="block hover:text-yellow-400">EVENTS</NuxtLink></li>
-        <li><NuxtLink @click="closeMenu" to="/jejak_kreatif" class="block hover:text-yellow-400">JEJAK KREATIF</NuxtLink></li>
-        <li><NuxtLink @click="closeMenu" to="/panduan" class="block hover:text-yellow-400">PANDUAN</NuxtLink></li>
-        <li><NuxtLink @click="closeMenu" to="/galeri" class="block hover:text-yellow-400">GALERI</NuxtLink></li>
-      </ul>
+      <transition name="fade">
+        <ul
+          v-if="isOpen"
+          class="absolute top-full left-0 w-full md:hidden px-4 pb-4 space-y-2 text-sm font-medium bg-[#4a69bd] shadow-lg"
+        >
+          <li><NuxtLink @click="closeMenu" to="/event" class="block hover:text-yellow-400 transition-colors">EVENTS</NuxtLink></li>
+          <li><NuxtLink @click="closeMenu" to="/jejak_kreatif" class="block hover:text-yellow-400 transition-colors">JEJAK KREATIF</NuxtLink></li>
+          <li><NuxtLink @click="closeMenu" to="/panduan" class="block hover:text-yellow-400 transition-colors">PANDUAN</NuxtLink></li>
+          <li><NuxtLink @click="closeMenu" to="/galeri" class="block hover:text-yellow-400 transition-colors">GALERI</NuxtLink></li>
+        </ul>
+      </transition>
     </div>
   </nav>
 </template>
@@ -50,3 +55,13 @@ function closeMenu() {
   isOpen.value = false
 }
 </script>
+
+<style>
+/* Optional: Add smooth fade-in/out animation for mobile menu */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+</style>

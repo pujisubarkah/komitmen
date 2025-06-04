@@ -29,38 +29,58 @@ export default {
 }
 
 .title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #6a5acd; /* Warna biru purple */
+    color: #6a5acd;
     font-style: italic;
-    font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* Font tulisan tangan */
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
 }
 
-.logos {
+.logos, .small-logos {
     display: flex;
     justify-content: center;
-    gap: 30px; /* Menambah jarak antar logo */
+    flex-wrap: wrap; /* Membuat elemen membungkus jika ruang tidak cukup */
+    gap: 20px;
 }
 
-.small-logos {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Menambah jarak antar logo kecil */
-    margin-top: 20px; /* Tambahkan margin atas untuk pemisah */
+.logo, .small-logo {
+    height: auto;
+    width: 100px; /* Ukuran default untuk logo */
+    max-width: 100%; /* Membatasi ukuran agar tidak melebihi kontainer */
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
+    margin: 10px;
 }
 
 .small-logo {
-    height: 50px;
-    width: auto;
-    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
-    margin: 5px; /* Menambah margin di sekitar logo kecil */
+    width: 70px; /* Ukuran default untuk logo kecil */
 }
 
-.logo {
-    height: 80px;
-    width: auto;
-    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
-    margin: 10px; /* Menambah margin di sekitar logo */
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.5rem; /* Ukuran font lebih kecil untuk perangkat kecil */
+    }
+
+    .logo {
+        width: 80px; /* Ukuran logo lebih kecil */
+    }
+
+    .small-logo {
+        width: 60px; /* Ukuran logo kecil lebih kecil */
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.2rem; /* Ukuran font lebih kecil lagi */
+    }
+
+    .logo {
+        width: 60px; /* Ukuran logo lebih kecil lagi */
+    }
+
+    .small-logo {
+        width: 50px; /* Ukuran logo kecil lebih kecil lagi */
+    }
 }
 </style>

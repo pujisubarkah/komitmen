@@ -30,7 +30,7 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 60px;
+    padding: 40px 20px;
     background: linear-gradient(135deg, #4a90e2, #8e44ad);
     color: #fff;
     border-radius: 10px;
@@ -46,18 +46,19 @@ export default {
 
 .content {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
     width: 100%;
     max-width: 800px;
 }
 
 .preview-image {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-right: 20px; /* Tambahkan margin kanan */
 }
 
 .description {
@@ -65,7 +66,7 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding-left: 10px; /* Tambahkan padding kiri */
+    text-align: center;
 }
 
 .description p {
@@ -76,7 +77,9 @@ export default {
 
 .buttons {
     display: flex;
+    flex-direction: column;
     gap: 15px;
+    align-items: center;
 }
 
 .btn {
@@ -86,6 +89,7 @@ export default {
     text-decoration: none;
     border-radius: 5px;
     transition: all 0.3s ease;
+    text-align: center;
 }
 
 .download-btn {
@@ -104,5 +108,34 @@ export default {
 
 .view-btn:hover {
     background-color: #6d348c;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .content {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .description {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .buttons {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
 }
 </style>
