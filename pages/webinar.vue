@@ -1,7 +1,7 @@
 <template>
   <div class="panduan-container">
       <div class="content">
-          <img src="/flyer-webinar.png" alt="Preview Panduan" class="preview-image" />
+          <img src="/flyer-webinar.jpg" alt="Preview Panduan" class="preview-image" />
           <div class="description">
               <h1 class="title" style="margin-bottom: 10px;">Webinar Road to LAN Datathon 2025</h1>
               <h2 class="subtitle" style="margin-bottom: 15px;">Masa Depan Kebijakan Publik: Peran AI Generatif dalam Optimalisasi Reformasi Birokrasi</h2>
