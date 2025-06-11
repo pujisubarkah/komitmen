@@ -12,8 +12,11 @@
           </div>
       </div>
       <div class="buttons">
-                  <a href="https://us02web.zoom.us/meeting/register/hTgZ1XdCTn-X9NXUXZ6dXA" target="_blank" class="btn view-btn">Daftar Webinar Sekarang!</a>
-              </div>
+          <a href="https://us02web.zoom.us/meeting/register/hTgZ1XdCTn-X9NXUXZ6dXA" target="_blank" class="btn view-btn">Registrasi Webinar</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeoTC0kXjoLFJiT-uc1eSSfrpTVg7IHXX1ae2icLh3s5lJq6A/viewform" target="_blank" class="btn download-btn">Daftar Hadir Webinar</a>
+          <a href="https://drive.google.com/file/d/1WOMmG0zjgV6NkVZ6e63FYQbiPkxZOw5e/view?usp=sharing" target="_blank" class="btn download-btn">Background Zoom</a>
+      </div>
+
   </div>
 </template>
 
