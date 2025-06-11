@@ -1,4 +1,10 @@
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: 'LAN DATATHON 2025',
+      // Anda juga bisa menambahkan meta tag lain di sini jika perlu
+    }
+  },
   modules: [
     '@nuxtjs/tailwindcss',
     [
