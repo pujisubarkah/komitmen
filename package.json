@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "nuxt": "^3.17.2",
     "qrcode.vue": "^3.6.0",
     "signature_pad": "^5.0.7",
