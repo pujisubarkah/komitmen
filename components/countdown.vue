@@ -13,7 +13,7 @@
       </p>
 
       <h2 class="text-3xl font-bold text-purple-800 mb-6">
-        <span class="text-purple-700">Registration</span> <span class="font-black">will be closed in</span>
+        <span class="text-purple-700">Registration Closed!</span> <span class="font-black">Bootcamp qualifiers will be announced in</span>
       </h2>
 
       <div class="flex justify-center space-x-6 mb-8 flex-wrap">
@@ -41,12 +41,9 @@
       </div>
       </div>
       <div v-else>
-      <NuxtLink to="/registrasi" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold mx-4 my-2">
-          REGISTER NOW
-        </NuxtLink>
-        <NuxtLink to="/panduan" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold mx-4 my-2">
-          VIEW BOOKLET
-        </NuxtLink>
+      <div class="bg-gradient-to-r from-purple-700 to-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+        REGISTRATION CLOSED
+      </div>
       </div>
     </div>
   </div>
@@ -57,7 +54,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 const countdown = ref({ days: '00', hours: '00', minutes: '00', seconds: '00' })
 
-const target = new Date('2025-06-29T09:00:00')
+const target = new Date('2025-07-02T09:00:00')
 
 const updateCountdown = () => {
   const now = new Date()

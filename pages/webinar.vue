@@ -7,16 +7,14 @@
               <h2 class="subtitle" style="margin-bottom: 15px;">Masa Depan Kebijakan Publik: Peran AI Generatif dalam Optimalisasi Reformasi Birokrasi</h2>
               <p style="margin-bottom: 15px; text-align: justify;">
                   Bergabunglah dengan webinar kami untuk mendapatkan wawasan mendalam tentang LAN Datathon 2025! Webinar ini akan membahas bagaimana AI generatif dapat mengoptimalkan reformasi birokrasi dalam kebijakan publik. Jangan lewatkan kesempatan ini untuk mempersiapkan diri Anda dengan baik sebelum kompetisi dimulai!
-                  
               </p>
           </div>
       </div>
       <div class="buttons">
-          <a href="https://us02web.zoom.us/meeting/register/hTgZ1XdCTn-X9NXUXZ6dXA" target="_blank" class="btn view-btn">Registrasi Webinar</a>
+          <a href="https://www.youtube.com/watch?v=RwEk_V5iH-U&pp=0gcJCd4JAYcqIYzv" target="_blank" class="btn view-btn">Tonton Webinar</a>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSeoTC0kXjoLFJiT-uc1eSSfrpTVg7IHXX1ae2icLh3s5lJq6A/viewform" target="_blank" class="btn download-btn">Daftar Hadir Webinar</a>
           <a href="https://drive.google.com/file/d/1HiQJVXy7Oqdu4WNdFoGNuOl0OwzGsTE5/view?usp=sharing" target="_blank" class="btn download-btn">Background Zoom</a>
           <a href="https://drive.google.com/drive/folders/1H7zz2SrE91v36vUqo9iq4Sh3T7rLOyKy?usp=drive_link" target="_blank" class="btn download-btn">Materi Webinar</a>
-          <a href="https://drive.google.com/drive/folders/1H7zz2SrE91v36vUqo9iq4Sh3T7rLOyKy?usp=drive_link" target="_blank" class="btn download-btn">Sertifikat</a>
       </div>
       <p style="margin-top: 20px; font-size: 0.9rem; text-align: center; color: #555;">
         Daftar Hadir Webinar LAN Datathon 2025 akan dibuka setelah pemaparan materi narasumber selesai, dan sertifikat akan dikirim melalui email maksimal 7 hari kerja setelah webinar berlangsung.

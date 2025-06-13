@@ -25,6 +25,7 @@
         <li><NuxtLink to="/jejak_kreatif" class="hover:text-yellow-400 transition-colors">JEJAK KREATIF</NuxtLink></li>
         <li><NuxtLink to="/panduan" class="hover:text-yellow-400 transition-colors">PANDUAN</NuxtLink></li>
         <li><NuxtLink to="/galeri" class="hover:text-yellow-400 transition-colors">GALERI</NuxtLink></li>
+        <li><NuxtLink to="/kontak" class="hover:text-yellow-400 transition-colors">KONTAK</NuxtLink></li>
         <li><NuxtLink to="/registrasi" class="bg-yellow-400 text-black px-4 py-2 rounded hover:bg-yellow-500 transition-colors">REGISTRASI</NuxtLink></li>
       </ul>
 
@@ -39,6 +40,7 @@
           <li><NuxtLink @click="closeMenu" to="/jejak_kreatif" class="block hover:text-yellow-400 transition-colors">JEJAK KREATIF</NuxtLink></li>
           <li><NuxtLink @click="closeMenu" to="/panduan" class="block hover:text-yellow-400 transition-colors">PANDUAN</NuxtLink></li>
           <li><NuxtLink @click="closeMenu" to="/galeri" class="block hover:text-yellow-400 transition-colors">GALERI</NuxtLink></li>
+          <li><NuxtLink @click="closeMenu" to="/kontak" class="block hover:text-yellow-400 transition-colors">KONTAK</NuxtLink></li>
           <li>
             <NuxtLink @click="closeMenu" to="/registrasi" class="block bg-yellow-400 text-black px-4 py-2 rounded hover:bg-yellow-500 transition-colors">
               REGISTRASI

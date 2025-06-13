@@ -12,6 +12,7 @@
         <Collaboration />
       </section>
     </div>
+
   </div>
 </template>
 
