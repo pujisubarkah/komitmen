@@ -13,7 +13,7 @@
       </p>
 
       <h2 class="text-3xl font-bold text-purple-800 mb-6">
-        <span class="text-purple-700">Webinar & Registration</span> <span class="font-black">will be open in</span>
+        <span class="text-purple-700">Registration</span> <span class="font-black">will be closed in</span>
       </h2>
 
       <div class="flex justify-center space-x-6 mb-8 flex-wrap">
@@ -35,16 +35,18 @@
         </div>
       </div>
 
-      <div v-if="countdown.days === '00' && countdown.hours === '00' && countdown.minutes === '00' && countdown.seconds === '00'" class="flex space-x-4">
-        <NuxtLink to="/registrasi" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+      <div v-if="parseInt(countdown.days) <= 0 && parseInt(countdown.hours) <= 0 && parseInt(countdown.minutes) <= 0 && parseInt(countdown.seconds) <= 0" class="flex space-x-4">
+        <div class="bg-gradient-to-r from-purple-700 to-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+        REGISTRATION CLOSED
+      </div>
+      </div>
+      <div v-else>
+      <NuxtLink to="/registrasi" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
           REGISTER NOW
         </NuxtLink>
         <NuxtLink to="/panduan" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
           VIEW BOOKLET
         </NuxtLink>
-      </div>
-      <div v-else class="bg-gradient-to-r from-purple-700 to-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
-        12 June 2025, 09.00 WIB
       </div>
     </div>
   </div>
@@ -55,7 +57,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 const countdown = ref({ days: '00', hours: '00', minutes: '00', seconds: '00' })
 
-const target = new Date('2025-06-12T09:00:00')
+const target = new Date('2025-06-29T09:00:00')
 
 const updateCountdown = () => {
   const now = new Date()
