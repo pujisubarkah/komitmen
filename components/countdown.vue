@@ -41,10 +41,10 @@
       </div>
       </div>
       <div v-else>
-      <NuxtLink to="/registrasi" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+      <NuxtLink to="/registrasi" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold mx-4 my-2">
           REGISTER NOW
         </NuxtLink>
-        <NuxtLink to="/panduan" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+        <NuxtLink to="/panduan" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold mx-4 my-2">
           VIEW BOOKLET
         </NuxtLink>
       </div>
