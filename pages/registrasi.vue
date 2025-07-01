@@ -17,15 +17,9 @@
         </div>
     </div>
     <hr class="my-8 border-t-2 border-gray-300">
-        <iframe 
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfLoCW5ypUoQq8_7M_Id0D-97MQrUY1-le7D5xHbwyWkgq2Kw/viewform?embedded=true" 
-            width="100%" 
-            height="800" 
-            frameborder="0" 
-            marginheight="0" 
-            marginwidth="0">
-            Loading…
-        </iframe>
+        <div class="registration-closed">
+            <img src="/registration-closed.jpeg" alt="Registration Closed" class="closed-image">
+        </div>
     </div>
 </template>
 
