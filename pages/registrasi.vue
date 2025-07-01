@@ -18,7 +18,7 @@
     </div>
     <hr class="my-8 border-t-2 border-gray-300">
         <div class="registration-closed">
-            <img src="/registration-closed.jpeg" alt="Registration Closed" class="closed-image">
+            <img src="/registration-closed.jpeg" alt="Registration Closed" class="closed-image" />
         </div>
     </div>
 </template>
@@ -79,6 +79,11 @@ iframe {
     border: 1px solid #cccccc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.registration-closed {
+    margin-top: 40px;
+    text-align: center;
 }
 
 .booklet-preview {
