@@ -84,6 +84,17 @@ iframe {
 .registration-closed {
     margin-top: 40px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.closed-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .booklet-preview {
