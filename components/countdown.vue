@@ -36,14 +36,14 @@
       </div>
 
       <div v-if="parseInt(countdown.days) <= 0 && parseInt(countdown.hours) <= 0 && parseInt(countdown.minutes) <= 0 && parseInt(countdown.seconds) <= 0" class="flex space-x-4">
-        <div class="bg-gradient-to-r from-purple-700 to-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
-        REGISTRATION CLOSED
-      </div>
+        <a href="https://drive.google.com/drive/folders/1qBvGuooAodd8getWUz9JpBF8AL8xP0aL?usp=share_link" target="_blank" rel="noopener" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+          PENGUMUMAN LOLOS BOOTCAMP 
+        </a>
       </div>
       <div v-else>
-      <div class="bg-gradient-to-r from-purple-700 to-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
-        REGISTRATION CLOSED
-      </div>
+      <a href="https://drive.google.com/drive/folders/1qBvGuooAodd8getWUz9JpBF8AL8xP0aL?usp=share_link" target="_blank" rel="noopener" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+          PENGUMUMAN LOLOS BOOTCAMP 
+        </a>
       </div>
     </div>
   </div>
@@ -54,7 +54,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 const countdown = ref({ days: '00', hours: '00', minutes: '00', seconds: '00' })
 
-const target = new Date('2025-07-02T09:00:00')
+const target = new Date('2025-07-02T16:00:00')
 
 const updateCountdown = () => {
   const now = new Date()
