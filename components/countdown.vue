@@ -13,7 +13,7 @@
       </p>
 
       <h2 class="text-3xl font-bold text-purple-800 mb-6">
-        <span class="text-purple-700">Bootcamp qualifiers have been announced!</span> <span class="font-black">The Bootcamp stage will start on July 7, 2025.</span>
+        <span class="text-purple-700">Bootcamp qualifiers have been announced!</span> <span class="font-black">The Bootcamp stage will start on July 14, 2025.</span>
       </h2>
 
       <div class="flex justify-center space-x-6 mb-8 flex-wrap">
@@ -54,7 +54,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 const countdown = ref({ days: '00', hours: '00', minutes: '00', seconds: '00' })
 
-const target = new Date('2025-07-07T09:00:00')
+const target = new Date('2025-07-14T09:00:00')
 
 const updateCountdown = () => {
   const now = new Date()
