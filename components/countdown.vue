@@ -37,12 +37,18 @@
 
       <div v-if="parseInt(countdown.days) <= 0 && parseInt(countdown.hours) <= 0 && parseInt(countdown.minutes) <= 0 && parseInt(countdown.seconds) <= 0" class="flex space-x-4">
         <a href="https://drive.google.com/drive/folders/1qBvGuooAodd8getWUz9JpBF8AL8xP0aL?usp=share_link" target="_blank" rel="noopener" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
-          PENGUMUMAN LOLOS BOOTCAMP 
+          PENGUMUMAN BOOTCAMP 
+        </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjia9-HLMA3ALiMtEo7u-ygOXcdnCB61lA1ulArnMlYJ_VAQ/viewform" target="_blank" rel="noopener" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+          KONFIRMASI PESERTA
         </a>
       </div>
       <div v-else>
       <a href="https://drive.google.com/drive/folders/1qBvGuooAodd8getWUz9JpBF8AL8xP0aL?usp=share_link" target="_blank" rel="noopener" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
           PENGUMUMAN LOLOS BOOTCAMP 
+        </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjia9-HLMA3ALiMtEo7u-ygOXcdnCB61lA1ulArnMlYJ_VAQ/viewform" target="_blank" rel="noopener" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+          KONFIRMASI PESERTA
         </a>
       </div>
     </div>
