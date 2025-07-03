@@ -47,13 +47,13 @@ const timeline = [
   },
   {
     title: 'Bootcamp (Online)',
-    date: '11-18 Juli 2025',
+    date: '14-18 Juli 2025',
     description: 'Bootcamp Online: Project Development & Mentoring',
   },
   {
-    title: 'Final Pitching',
-    date: ' Agustus 2025',
-    description: 'Demo Day: Final Project Presentation & Awards Ceremony',
+    title: 'Final Submission',
+    date: '27 Juli 2025',
+    description: 'Final Project Submission: Project Submission Deadline',
   },
   
 ]
