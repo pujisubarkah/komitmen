@@ -13,7 +13,7 @@
       </p>
 
       <h2 class="text-3xl font-bold text-purple-800 mb-6">
-        <span class="text-purple-700">Bootcamp qualifiers have been announced!</span> <span class="font-black">The Bootcamp stage will start on July 14, 2025.</span>
+        <span class="text-purple-700">Project creation phase has started!</span> <span class="font-black">Submit your work before July 27, 2025.</span>
       </h2>
 
       <div class="flex justify-center space-x-6 mb-8 flex-wrap">
@@ -36,19 +36,13 @@
       </div>
 
       <div v-if="parseInt(countdown.days) <= 0 && parseInt(countdown.hours) <= 0 && parseInt(countdown.minutes) <= 0 && parseInt(countdown.seconds) <= 0" class="flex space-x-4">
-        <a href="https://drive.google.com/drive/folders/1qBvGuooAodd8getWUz9JpBF8AL8xP0aL?usp=share_link" target="_blank" rel="noopener" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
-          PENGUMUMAN BOOTCAMP 
-        </a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjia9-HLMA3ALiMtEo7u-ygOXcdnCB61lA1ulArnMlYJ_VAQ/viewform" target="_blank" rel="noopener" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
-          KONFIRMASI PESERTA
+        <a href="/" target="_blank" rel="noopener" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+          SUBMIT PROJECT (LINK BELUM TERSEDIA)
         </a>
       </div>
       <div v-else>
-      <a href="https://drive.google.com/drive/folders/1qBvGuooAodd8getWUz9JpBF8AL8xP0aL?usp=share_link" target="_blank" rel="noopener" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
-          PENGUMUMAN LOLOS BOOTCAMP 
-        </a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjia9-HLMA3ALiMtEo7u-ygOXcdnCB61lA1ulArnMlYJ_VAQ/viewform" target="_blank" rel="noopener" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
-          KONFIRMASI PESERTA
+      <a href="/" target="_blank" rel="noopener" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+          SUBMIT PROJECT (LINK BELUM TERSEDIA)
         </a>
       </div>
     </div>
@@ -60,7 +54,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 const countdown = ref({ days: '00', hours: '00', minutes: '00', seconds: '00' })
 
-const target = new Date('2025-07-14T09:00:00')
+const target = new Date('2025-07-27T23:59:00')
 
 const updateCountdown = () => {
   const now = new Date()
