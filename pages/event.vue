@@ -4,7 +4,7 @@
     <div class="timeline-container">
       <h1>Timeline Event LAN Datathon 2025</h1>
       <div class="timeline">
-        <img src="/timeline.jpeg" alt="Timeline LAN Datathon 2025" class="timeline-image" />
+        <img src="/timeline.png" alt="Timeline LAN Datathon 2025" class="timeline-image" />
       </div>
     </div>
   </div>
