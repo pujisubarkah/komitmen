@@ -13,8 +13,7 @@
       </p>
 
       <h2 class="text-3xl font-bold text-purple-800 mb-6">
-        <span class="text-purple-700">Project creation phase has started!</span> <span class="font-black">Submit your work before July 27, 2025.</span>
-      </h2>
+        <span class="text-purple-700">Bootcamp and project creation have ended!</span> <span class="font-black">It's time to witness the Demo Day presentations from the Top 5 finalists.</span></h2>
 
       <div class="flex justify-center space-x-6 mb-8 flex-wrap">
         <div class="bg-gradient-to-r from-blue-100 to-purple-200 rounded-lg shadow-md p-8 text-purple-800 text-center w-24 md:w-32">
@@ -36,13 +35,13 @@
       </div>
 
       <div v-if="parseInt(countdown.days) <= 0 && parseInt(countdown.hours) <= 0 && parseInt(countdown.minutes) <= 0 && parseInt(countdown.seconds) <= 0" class="flex space-x-4">
-        <a href="https://forms.gle/ERKgggRoVv61H91v8" target="_blank" rel="noopener" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
-          SUBMIT PROJECT HERE
+        <a href="https://drive.google.com/file/d/19n1nZ9OsV0zx9_ipMiDQFKchP55w75j_/view?usp=drive_link" target="_blank" rel="noopener" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+          TOP 5 FINALIST
         </a>
       </div>
       <div v-else>
-      <a href="https://forms.gle/ERKgggRoVv61H91v8" target="_blank" rel="noopener" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
-          SUBMIT PROJECT HERE
+      <a href="https://drive.google.com/file/d/19n1nZ9OsV0zx9_ipMiDQFKchP55w75j_/view?usp=drive_link" target="_blank" rel="noopener" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-semibold">
+          TOP 5 FINALIST
         </a>
       </div>
     </div>
@@ -54,7 +53,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 const countdown = ref({ days: '00', hours: '00', minutes: '00', seconds: '00' })
 
-const target = new Date('2025-07-27T23:59:00')
+const target = new Date('2025-08-04T09:00:00')
 
 const updateCountdown = () => {
   const now = new Date()
